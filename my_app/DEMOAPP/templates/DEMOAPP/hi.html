@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <style>
+        /* Reset some default styles for consistency */
+        body, h1, h2, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Global styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Navigation menu */
+        nav {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        nav ul {
+            list-style: none;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+        }
+
+        /* About Us page styles */
+        .about-container {
+            margin-top: 20px;
+        }
+
+        /* Admin Panel styles */
+        .admin-container {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Student Management System</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="hi.html">Registration</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#admin">Admin Panel</a></li>
+        </ul>
+    </nav>
+
+    <!-- Registration Form -->
+    <div id="registration" class="container">
+        <h2>Registration Form</h2>
+        <form action="registration.php" method="post">
+            <!-- Your registration form code here -->
+            <div class="container">
+                <h2>Registration Form</h2>
+                <form action="registration.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    
+                    <button type="submit">Register</button>
+                </form>
+            </div>
+            
+        </form>
+    </div>
+
+    <!-- About Us Page Content -->
+    <div id="about" class="about-container container">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget augue euismod, aliquam odio id, rhoncus velit.</p>
+        <!-- Add more content about your organization here -->
+        <!-- About Us Page Content -->
+    <div id="about" class="about-container container">
+        <h2>About Student Management System</h2>
+        <p>Welcome to the Student Management System, your one-stop solution for managing student information efficiently. We are dedicated to helping educational institutions streamline their administrative processes and enhance their overall management of students.</p>
+        
+        <h3>Our Mission</h3>
+        <p>Our mission is to provide user-friendly, powerful, and reliable software to educational institutions, enabling them to focus on what they do best: educating students. We aim to simplify student enrollment, record-keeping, and reporting to make academic administration a breeze.</p>
+        
+        <h3>Why Choose Us?</h3>
+        <p>We understand the unique challenges that educational institutions face in managing student data. Here's why you should choose Student Management System:</p>
+        <ul>
+            <li><strong>User-Friendly:</strong> Our system is designed with simplicity in mind, making it easy for your staff to use.</li>
+            <li><strong>Efficiency:</strong> Save time and resources with streamlined student data management.</li>
+            <li><strong>Accuracy:</strong> Reduce errors and ensure accurate student records.</li>
+            <li><strong>Scalability:</strong> Our system grows with your institution, accommodating changes in enrollment and staff.</li>
+            <li><strong>Support:</strong> We provide excellent customer support to assist you every step of the way.</li>
+        </ul>
+
+        <h3>Contact Us</h3>
+        <p>If you have any questions or would like to learn more about how Student Management System can benefit your institution, please don't hesitate to <a href="contact.html">contact us</a>.</p>
+    </div>
+
+    </div>
+
+    <!-- Admin Panel Content (Optional) -->
+    <div id="admin" class="admin-container container">
+        <h2>Admin Panel</h2>
+        <p>This is the admin panel. You can add your admin-specific content and functionality here.</p>
+        <!-- Add your admin-specific content here -->
+        <!-- Admin Panel Content (Optional) -->
+    <div id="admin" class="admin-container container">
+        <h2>Admin Panel</h2>
+
+        <!-- Navigation for Admin Functions -->
+        <ul>
+            <li><a href="#admin-dashboard">Dashboard</a></li>
+            <li><a href="#admin-users">Manage Users</a></li>
+            <li><a href="#admin-courses">Manage Courses</a></li>
+        </ul>
+
+        <!-- Admin Dashboard -->
+        <div id="admin-dashboard" class="admin-section">
+            <h3>Dashboard</h3>
+            <p>Welcome to the Admin Panel. Here, you can manage various aspects of the Student Management System.</p>
+            <!-- Add real-time statistics or other dashboard content here -->
+        </div>
+
+        <!-- Manage Users -->
+        <div id="admin-users" class="admin-section">
+            <h3>Manage Users</h3>
+            <p>You can manage user accounts here. Add, edit, or delete user information as needed.</p>
+            <!-- Add user management forms and tables here -->
+        </div>
+
+        <!-- Manage Courses -->
+        <div id="admin-courses" class="admin-section">
+            <h3>Manage Courses</h3>
+            <p>This section allows you to manage courses offered by the institution.</p>
+            <!-- Add course management forms and tables here -->
+        </div>
+
+        <!-- Add more admin sections as needed for your specific functionality -->
+    </div>
+
+    </div>
+</body>
+</html>
